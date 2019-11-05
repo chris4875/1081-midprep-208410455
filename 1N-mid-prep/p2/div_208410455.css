@@ -1,0 +1,42 @@
+#heading {
+  width: 100%;
+  height: 100px;
+  background-color: darkcyan;
+  text-align: center;
+}
+#menu {
+  width: 20%;
+  height: 400px;
+  background-color: deepskyblue;
+  float: left;
+}
+#section {
+  width: 80%;
+  height: 400px;
+  background-color: coral;
+  float: right;
+}
+#footer {
+  width: 100%;
+  height: 70px;
+  background-color: darkgray;
+}
+.clearfix {
+  clear: both;
+}
+#heading nav li {
+  float: left;
+  list-style-type: none;
+  margin: 5px;
+  font-size: 15px;
+}
+#heading nav ul {
+  padding: 0px;
+}
+#heading nav a {
+  background-color: darksalmon;
+  padding: 5px;
+}
+#heading nav a:hover {
+  background-color: crimson;
+}
